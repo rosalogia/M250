@@ -11,4 +11,8 @@ mat randomMatrix(int n, int m);
 
 mat matrixVectorProduct(mat a, vl x);
 
+vl rowByMatrix(vl x, mat a);
+
+mat compose(mat a, mat b);
+
 std::string formatMatrix(mat a);
